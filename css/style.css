@@ -65,7 +65,7 @@ body {
   top: 0;
   bottom: -20vh;
   background: white;
-  outline: 3px solid rgba(76, 174, 79, 0.7);
+  outline: 2px solid gray;
   padding-block: 1rem;
 }
 
@@ -101,7 +101,6 @@ body {
 
 .hero-btn {
   outline: none;
-  border: none;
   background-color: rgba(76, 174, 79, 0.8);
   border: 1px solid black;
   cursor: pointer;
@@ -126,7 +125,6 @@ body {
   padding-block: 5rem;
   flex-direction: column;
   width: 100%;
-
 }
 
 .thing-container {
@@ -172,7 +170,6 @@ body {
   grid-area: tl;
   margin-top: auto;
   font-size: 2.5rem;
-  position: relative;
   color: #353535;
 }
 
@@ -206,4 +203,25 @@ body {
   grid-area: img;
   height: 200px;
   border-radius: 5px;
+}
+
+
+footer {
+  background-color: rgba(76, 174, 79, 0.7);
+  padding-block: 1rem;
+
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 500px;
+  margin-inline: auto;
+  list-style: none;
+}
+
+footer ul a {
+  text-decoration: none;
+  color: black;
 }
