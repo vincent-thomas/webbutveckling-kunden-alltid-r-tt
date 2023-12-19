@@ -4,27 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/delat.css" />
     <title>Webbutveckling projekt</title>
   </head>
   <body>
+    <script>
+      function gotoPremiumKurs() {
+        window.location.href = "premium.html"
+      }
+    </script>
     <main>
         <section class="hero">
           <div class="hero-left">
             <nav class="hero-nav">
-             <h1>FitFam</h1>
+              <a href="/" class="logo-container">
+                <h1 class="logo">Fit<span class="fan">Fan</span></h1>
+              </a>
             </nav>
-            <div class="hero-info">
+              <div class="hero-info">
               <h1 class="hero-title title-primary">
                 Få tips och tricks på vår fitness-platform!
               </h1>
               <p>FitFam gör så att du får bästa upplevelsen</p>
               <div>
-                <button class="hero-btn">Börja nu!</button><button></button>
+                <button class="hero-btn" onclick="gotoPremiumKurs()">Börja nu!</button>
               </div>
             </div>
           </div>
           <div class="hero-img">
-
           <img src="/img/hero-xs.jpg" alt="" />
           </div>
         </section>
@@ -32,7 +39,7 @@
       <section class="bottom-header">
         <nav>
         <a href="/">Hem</a>
-          <a href="/kurser.html">Gratis Kurser</a>
+          <a href="/forum.html">Forum</a>
           <a href="/premium.html">Premium Kurser</a>
         </nav>
       </section>
@@ -51,10 +58,9 @@
             success genom att matcha dig med
             liksinnade människor oavsett
             mål med din träning</p>
-            <img src="/img/training.jpg" alt="training image">
+            <img src="/img/success.jpg" alt="training image">
         </article>
       </div>
-
     </main>
     <footer>
       <ul>

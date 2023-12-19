@@ -15,14 +15,14 @@ body {
 
 .logo-container {
   text-decoration: none;
-  font-size: 1.3rem;
   color: black;
 }
 
 .logo {
   gap: 0.2rem;
-  display: flex;
+  display: inline-flex;
   padding: 0.5rem;
+  font-size: 2rem;
   border-radius: 10%;
 
   &:hover {
