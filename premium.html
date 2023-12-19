@@ -5,27 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FitFan | Premium</title>
     <link rel="stylesheet" href="css/premium.css" />
+    <link rel="stylesheet" href="css/delat.css" />
   </head>
   <body class="wrapper">
     <header>
-      <h1 class="logo">
-        <a href="/">Fit<span class="fan">Fan</span></a>
-      </h1>
+      <a href="/" class="logo-container">
+        <h1 class="logo">Fit<span class="fan">Fan</span></h1>
+      </a>
       <nav>
+        <a href="/forum.html" class="forum">Forum</a>
         <a href="/premium/köp.html" class="hero-btn">Köp Premium</a>
       </nav>
     </header>
-    <aside></aside>
+    <aside>
+      <h1>Kategorier</h1>
+      <ul class="kat-list">
+        <li role="button">Styrketräning</li>
+        <li role="button">Yoga</li>
+        <li role="button">Spinning</li>
+        <li role="button">Löpning</li>
+        <li role="button">Simning</li>
+        <li role="button">Friluftsliv</li>
+        <li role="button">Kondition</li>
+        <li role="button">Klättring</li>
+      </ul>
+    </aside>
     <main>
       <form>
         <label for="search">Sök Premium-kurser</label>
         <div>
           <input type="text" name="search" placeholder="E.g Yoga, Träning" />
 
-          <button class="sök-btn">Sök</button>
+          <button class="sök-btn" type="submit">Sök</button>
         </div>
       </form>
-
       <section class="kort-container">
         <article class="card">
           <img src="/img/rsz_image-1-training.jpg" alt="" />
